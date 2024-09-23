@@ -1,0 +1,17 @@
+<!-- Modal Header -->
+<div class="modal-header">
+    <h2>{{project.name}}</h2>
+    <button class="btn-close" (click)="bsModalRef.hide()"></button>
+  </div>
+  
+  <!-- Modal Body with Carousel -->
+  <div class="modal-body">
+    <carousel>
+      <div *ngFor="let picture of project.pictures">
+        <slide>
+          <img src={{picture}} alt="slide" class="modal-image">
+        </slide>
+      </div>
+    </carousel>
+  </div>
+  

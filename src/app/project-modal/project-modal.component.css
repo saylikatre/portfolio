@@ -1,0 +1,37 @@
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe6f2;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  .modal-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b30047;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel {
+    width: 100%;
+    max-width: 800px; /* Increased width for larger image area */
+    margin: 0 auto;
+  }
+  
+  .modal-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Increased height for a more eye-catching image */
+    object-fit: contain; /* Ensure image is not cropped */
+    border-radius: 8px; /* Optional: Add rounded corners for style */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+  }
+  

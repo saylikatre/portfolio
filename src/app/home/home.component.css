@@ -1,0 +1,38 @@
+.about-section {
+    background-color: #ffe6f2; /* Light pink background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .profile-img, .carousel-img {
+    width: 100%; /* Make both images the same width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners for consistency */
+    border: 5px solid #b30047; /* Dark pink border */
+    margin: 20px 0; /* Space around images */
+  }
+  
+  .featured-project-section {
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  .featured-project-section h2 {
+    font-size: 2.5rem; /* Increase size for headings */
+    font-weight: bold;
+  }
+  
+  .featured-project-section h4 {
+    font-size: 1.5rem; /* Size for project name */
+    font-weight: normal; /* Normal weight for project name */
+    color: #b30047; /* Dark pink color */
+  }
+  
+  .featured-project-section p {
+    font-size: 1.1rem; /* Slightly larger for readability */
+    line-height: 1.5; /* Improve line spacing */
+  }

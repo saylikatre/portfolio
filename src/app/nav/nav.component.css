@@ -1,0 +1,38 @@
+/* Styling the navbar */
+.navbar {
+    background-color: #ff99cc; /* Pink background */
+    border-color: #ff6699; /* Slightly darker pink border */
+    font-size: 1.2rem; /* Increase font size */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333333; /* Dark gray text color for better visibility */
+    padding: 15px 20px; /* Larger padding for bigger buttons */
+    font-weight: bold;
+    text-transform: uppercase; /* Capitalize text */
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    background-color: #cc3366; /* Dark pink hover effect */
+    color: #ffffff; /* White text on hover/active */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .navbar-toggler {
+    border-color: #ff6699; /* Pink border for the toggle button */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #cc3366; /* Darker pink for the icon */
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    color: #ffffff; /* White icon color */
+  }
+  
+  /* Increase navbar size */
+  .navbar {
+    padding: 20px 0; /* Adjust padding for bigger navbar */
+  }
+  

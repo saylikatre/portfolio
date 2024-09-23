@@ -1,0 +1,23 @@
+.jumbotron {
+    position: relative; /* Position relative for absolute positioning of icons */
+    background-color: #ffe6f2; /* Pink background */
+    color: #b30047; /* Dark pink text color */
+    padding: 2rem; /* Padding for the jumbotron */
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.social-icon {
+    color: #b30047; /* Dark pink color for the icons */
+    font-size: 1.5rem; /* Icon size */
+    margin-left: 10px; /* Space between icons */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover {
+    color: #ff4081; /* Lighter pink on hover */
+}
